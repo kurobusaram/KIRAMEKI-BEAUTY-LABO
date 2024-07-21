@@ -50,7 +50,7 @@ img {
     background-color: #fff;
     display: flex;
     width: 100%;
-    height: 91.5px;
+    height: 92px;
     align-items: center;
     position: fixed;
     top: 0;
@@ -110,12 +110,12 @@ img {
     column-gap: 21px;
 }
 .header__btn--contact {
-    width: 189.1px;
-    height: 50.36px;
+    width: 189px;
+    height: 51px;
     background-color: #fa7da3;
     color: #fff;
-    font-size: 21.12px;
-    border-radius: 25.18px;
+    font-size: 21px;
+    border-radius: 26px;
     text-align: center;
     position: relative;
     line-height: 2.3;
@@ -167,8 +167,8 @@ img {
     height: 51px;
     background-color: #49c43d;
     color: #fff;
-    font-size: 21.12px;
-    border-radius: 25.18px;
+    font-size: 21px;
+    border-radius: 26px;
     text-align: center;
     position: relative;
     line-height: 2.3;
@@ -179,12 +179,12 @@ img {
     content: "\f285";
     position: absolute;
     top: 6.3px;
-    right: 14.7px;
+    right: 15px;
     color: #fff;
     font-size: 18px;
 }
 .header__btn small {
-    font-size: 17.87px;
+    font-size: 18px;
 }
 @media screen and (max-width: 767px) {
     .header__btn--reserve {
@@ -215,7 +215,7 @@ img {
     background-image: url(/assets/image/女性.png);
     background-size: cover;
     padding-bottom: 50px;
-    margin-top: 91.5px;
+    margin-top: 92px;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
@@ -326,7 +326,7 @@ img {
     row-gap: 15px;
 }
 .top__price--up {
-    font-size: 29.25px;
+    font-size: 29px;
     color: #fa7da3;
     font-weight: 700;
     text-align: center;
@@ -584,7 +584,7 @@ img {
     line-height: 1.3;
 }
 .campaign__main--text b {
-    font-size: 67.9px;
+    font-size: 68px;
     font-weight: 600;
     margin-left: 15px;
 }
@@ -915,7 +915,7 @@ img {
     }
     .point__01--contents {
         column-gap: 22px;
-        margin-top: 12.2px;
+        margin-top: 12px;
     }
 
 }
@@ -1625,5 +1625,4 @@ img {
         width: 75px;
         height: 37px;
     }
-
 }
