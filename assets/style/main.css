@@ -1,4 +1,4 @@
-@charset"UTF-8";
+@charset "UTF-8";
 html {
     font-size: 16px;
 }
@@ -675,6 +675,7 @@ img {
 .reserve__btn--link:hover {
     background-color: #40e02f;
     opacity: 1;
+    transition: .1s ease .5s  ;
 }
 @media screen and (max-width: 767px) {
     .reserve__btn {
@@ -859,7 +860,7 @@ img {
     display: flex;
     flex-direction: column;
     margin-top: 47px;
-    width: 780px;
+    max-width: 780px;
 }
 .point__contents--heading {
     background-color: #fa7da3;
@@ -1002,7 +1003,7 @@ img {
     display: flex;
     flex-direction: column;
     margin-top: 48px;
-    width: 780px;
+    max-width: 780px;
 }
 .point__02--wrapper {
     display: flex;
@@ -1292,7 +1293,7 @@ img {
     display: flex;
     flex-direction: column;
     margin-top: 48px;
-    width: 780px;
+    max-width: 780px;
 }
 .point__03--wrapper {
     display: flex;
