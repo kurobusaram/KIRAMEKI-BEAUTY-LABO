@@ -36,7 +36,7 @@ img {
 }
 
 .container {
-    padding: 0 1rem;
+    padding: 0 10px;
     overflow: hidden;
 }
 
@@ -212,7 +212,7 @@ img {
     flex-direction: column;
     width: 100%;
     height: 612px;
-    background-image: url(/assets/image/女性.png);
+    background-image: url(/assets/image/lady.png);
     background-size: cover;
     padding-bottom: 50px;
     margin-top: 92px;
@@ -234,7 +234,7 @@ img {
 @media screen and (max-width: 767px) {
     .top {
         height: calc(314 / 390 * 100vw);
-        background-image: url(/assets/image/sp_女性.png);
+        background-image: url(/assets/image/sp_lady.png);
         background-position: 0px -4px;
         padding: 0;
         margin-top: calc(60 / 390 * 100vw);
@@ -271,9 +271,10 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .top__head {
         margin: 0 auto 24px;
+        gap: 27px;
     }
     .top__heading {
-        padding: calc(21 / 1024 * 100vw) calc(24 / 1024 * 100vw);
+        padding: calc(21 / 1024 * 100vw) 0;
         row-gap: calc(13 / 1024 * 100vw);
     }
     .top__heading--h2 {
@@ -333,6 +334,7 @@ img {
     width: 107px;
     height: 52px;
     background-color: #fff;
+    line-height: 1.8;
 }
 .top__price--low {
     font-size: 54px;
@@ -509,26 +511,27 @@ img {
 .campaign__pre--word {
     font-size: 34px;
     color: #fa7da3;
+    margin-left: 10px;
 }
 .campaign__pre::before {
-    font-family: "bootstrap-icons";
-    content: "\F56A";
-    color: #fa7da3;
-    font-size: 77px;
+    content: "";
+    background-color: #fa7da3;
     position: absolute;
-    top: -16px;
-    left: -62px;
-    transform: rotate(106deg);
+    width: 45px;
+    height: 3px;
+    top: 25px;
+    left: -30px;
+    transform: rotate(60deg);
 }
 .campaign__pre::after {
-    font-family: "bootstrap-icons";
-    content: "\F56A";
-    color: #fa7da3;
-    font-size: 77px;
+    content: "";
+    background-color: #fa7da3;
+    width: 45px;
+    height: 3px;
     position: absolute;
-    top: -16px;
-    right: -68px;
-    transform: rotate(164deg);
+    top: 25px;
+    right: -35px;
+    transform: rotate(120deg);
 }
 @media screen and (max-width: 767px) {
     .campaign {
@@ -543,16 +546,19 @@ img {
     .campaign__pre--word {
         font-size: 21px;
         line-height: 1.4;
+        margin-left: 5px;
     }
     .campaign__pre::before {
-        font-size: 45px;
-        top: -8px;
-        left: -36px;
+        width: 30px;
+        height: 2px;
+        top: 16px;
+        left: -17px;
     }
     .campaign__pre::after {
-        font-size: 45px;
-        top: -8px;
-        right: -39px;
+        width: 30px;
+        height: 2px;
+        top: 16px;
+        right: -18px;
     }
 }
 .campaign__main {
@@ -563,6 +569,7 @@ img {
 }
 .campaign__main--h3 {
     font-size: 32px;
+    font-weight: 400;
     color: #fff;
     text-align: center;
     background-color: #fa7da3;
@@ -570,7 +577,7 @@ img {
     border-radius: 10px 10px 0 0;
     width: 550px;
     height: 47px;
-    line-height: 1.2;
+    line-height: 1.3;
 }
 .campaign__main--text {
     font-size: 43.7px;
@@ -601,6 +608,7 @@ img {
         font-size: 21px;
         width: 350px;
         height: 32px;
+        line-height: 1.3;
     }
     .campaign__main--text {
         font-size: 27px;
@@ -774,13 +782,13 @@ img {
     flex-direction: column;
     width: 390px;
     align-items: center;
-    row-gap: 11px;
+    row-gap: 13px;
 }
 .point__logo--box {
     display: flex;
     flex-direction: row;
     column-gap: 2px;
-    height: 24px;
+    height: 22px;
 }
 .point__heading--logo {
     width: 263px;
@@ -805,13 +813,13 @@ img {
     font-weight: 700;
 }
 .common__heading--h3::before {
-    content: url(/assets/image/Shape_2918_L.png);
+    content: url(/assets/image/shape_2918_l.png);
     position: absolute;
     top: 2px;
     left: 5px;
 }
 .common__heading--h3::after {
-    content: url(/assets/image/Shape_2918_R.png);
+    content: url(/assets/image/shape_2918_r.png);
     font-size: 10px;
     position: absolute;
     top: 2px;
@@ -846,12 +854,12 @@ img {
         letter-spacing: 1.3px;
     }
     .common__heading--h3::before {
-        content: url(/assets/image/sp_Shape_2918_1_L.png);
+        content: url(/assets/image/sp_shape_2918_1_l.png);
         top: 1px;
         left: 3px;
     }
     .common__heading--h3::after {
-        content: url(/assets/image/sp_Shape_2918_1_R.png);
+        content: url(/assets/image/sp_shape_2918_1_r.png);
         top: 1px;
         right: 3px;
     }
@@ -859,7 +867,7 @@ img {
 .point__01 {
     display: flex;
     flex-direction: column;
-    margin-top: 47px;
+    margin-top: 48px;
     max-width: 780px;
 }
 .point__contents--heading {
@@ -881,7 +889,7 @@ img {
     background-color: #fff;
     border-radius: 0 0 10px 10px;
     border: solid 1px #fa7da3;
-    padding: 25px 41px 37px;
+    padding: 25px 41px 35px;
 }
 .point__01--text {
     font-size: 21px;
@@ -1574,10 +1582,12 @@ img {
     background-color: #ffd2d2;
     width: 15px;
     height: 15px;
+    opacity: 1;
 }
 .voice__pagination--page.is-active {
     background-color: #fa7da3;
     transform: unset;
+    opacity: 1;
 }
 .voice__width {
     width: 310px;
